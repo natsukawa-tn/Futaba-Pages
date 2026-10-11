@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Futaba</title>
+  <noscript><meta http-equiv="refresh" content="0; url=en/"></noscript>
+  <script>
+    (function () {
+      var l = ((navigator.languages && navigator.languages[0]) || navigator.language || "en").toLowerCase();
+      var dir = "en";
+      if (l.indexOf("ja") === 0) dir = "ja";
+      else if (l.indexOf("zh") === 0) {
+        dir = /hant|-tw|-hk|-mo/.test(l) ? "zh-Hant" : "zh-Hans";
+      }
+      location.replace(dir + "/");
+    })();
+  </script>
+</head>
+<body>
+  <a href="en/">Redirecting...</a>
+</body>
+</html>
