@@ -11,6 +11,6 @@
 
 App 中的地址：`https://natsukawa-tn.github.io/Futaba-Pages/<lang>/<page>.html`（见 `AppConstants`）
 
-上架后：把各语言 `index.html` 中的「App Store で近日公開」按钮换成 App Store 链接（`https://apps.apple.com/app/id<AppID>`）。
+首页的下载按钮链接到 App Store（`https://apps.apple.com/app/id6821694680`，`APP_STORE_ID`）。
 App 的功能或数据处理方式变化时，同步更新 4 种语言的隐私政策和「最終更新日」。
 App 图标目前是占位图；替换正式图标后重新生成本站。

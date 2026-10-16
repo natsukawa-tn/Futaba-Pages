@@ -120,8 +120,6 @@ a.nav-logo { text-decoration: none; }
   box-shadow: 0 4px 20px rgba(63,138,92,0.35);
 }
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(63,138,92,0.45); }
-.btn-soon { cursor: default; opacity: .85; }
-.btn-soon:hover { transform: none; box-shadow: 0 4px 20px rgba(63,138,92,0.35); }
 
 .pill-row { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 28px; }
 .pill {
